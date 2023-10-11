@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <div class="bg-slate-900 bg-center container min-h-screen px-20 py-5 relative">
+        <nav class="flex items-center">
+            <img src="./images/logo.png" class="w-40 cursor-pointer" alt="grocery logo">
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">Home</a></li>
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">About</a></li>
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">Features</a></li>
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">Contact</a></li>
+            </ul>
+            <img src="./images/cart.png" class="w-20 cursor-pointer" alt="cart">
+        </nav>
+        <div class="text-white mt-48 max-w-lg">
+            <h1 class="text-6xl font-semibold leading-normal">Groceries<br>Delivery in <span class="font-light">15</span>mins</h1>
+            <p>We offer a wide range of products, including fresh products, meat, diary, baked goods and non-perishable items</p>
+
+            <div class="mt-10">
+                <a href="#" class="bg-lime-700 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-lime-600 duration-300 hover:border border-transparent">Order Now</a>
+                <a href="#">Download App <span class="text-lg inline-block">&#8595;</span></a>
+            </div>
+        </div>
+        <img src="./images/retail-grocery-removebg-preview.png" class="w-full  xl:w-1/2 xl absolute bottom-0 right-20" alt="">
+    </div>
+</body>
+<script src="./grocery.js"></script>
+</html>

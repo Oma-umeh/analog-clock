@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANALOG-CLOCK</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body class="bg-slate-950 h-screen flex items-center justify-center">
+    <main>
+        <p class="my-[40px] tracking-[30px] font-bold text-3xl text-white">ANALOG-CLOCK</p>
+        <div class="h-[550px] w-[550px] border-solid rounded-full relative border-[20px] border-white">
+            <div class="w-[20px] h-[20px] rounded-full absolute top-[245px] left-[250px] bg-blue-950 z-50"></div>
+            <div class="font-bold text-[32px] text-slate-700 absolute top-[40px] right-[130px]">1</div>
+            <div class="font-bold text-[32px] text-slate-700 absolute top-[120px] right-[60px]">2</div>
+            <div class="font-bold text-[32px] text-slate-700 absolute top-[240px] right-[20px]">3</div>
+            <div class="font-bold text-[32px] text-slate-700 absolute top-[340px] right-[60px]">4</div>
+            <div class="font-bold text-[32px] text-slate-700 absolute top-[420px] right-[130px]">5</div>
+            <div class="font-bold text-[32px] text-slate-700 absolute top-[450px] right-[240px]">6</div>
+            <div class="font-bold text-[32px] text-slate-700 absolute top-[420px] left-[130px]">7</div>
+            <div class="font-bold text-[32px] text-slate-700 absolute top-[340px] left-[60px]">8</div>
+            <div class="font-bold text-[32px] text-slate-700 absolute top-[240px] left-[20px]">9</div>
+            <div class="font-bold text-[32px] text-slate-700 absolute top-[120px] left-[60px]">10</div>
+            <div class="font-bold text-[32px] text-slate-700 absolute top-[40px] left-[130px]">11</div>
+            <div class="font-bold text-[32px] text-slate-700 absolute top-0 right-[240px]">12</div>
+
+            <div class="bg-blue-950 absolute w-2 h-24 rounded transform -translate-x-1/2 translate-y-1/2 origin-bottom" 
+                style="left: 50%; top: 31%;" id="hour"></div>
+            <div class="bg-blue-950 absolute w-2 h-32 rounded transform -translate-x-1/2 translate-y-1/2 origin-bottom" 
+                style="left: 50%; top: 25%;" id="minute"></div>
+            <div class="bg-blue-950 absolute w-1 h-36 rounded transform -translate-x-1/2 translate-y-1/2 origin-bottom" 
+                style="left: 51%; top: 22%;" id="second"></div>
+        </div>
+    </main>
+</body>
+<script src="./clock.js"></script>
+</html>
